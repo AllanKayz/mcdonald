@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.green {
+    color: lawngreen;
+}
+
+.gold {
+    color: goldenrod;
+}
+
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel-item {
+    height: 100vh;
+}

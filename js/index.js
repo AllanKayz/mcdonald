@@ -4,6 +4,7 @@ const router = new VanillaRouter({
     type: "history",
     routes: {
         "/": "pages/home",
+        "/home": "pages/home",
         "/about": "pages/about",
         "/contact": "pages/contact",
         "/services": "pages/services",
