@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+.h-100 {
+    height: 100%;
+}
+
 .white {
     color: #ffffff;
 }
@@ -69,4 +73,97 @@
 
 .carousel-item {
     height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 0;
+    top: 40%;
+}
+
+.card {
+    border-color: lawngreen;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: lawngreen;
+}
+
+.btn-outline-success {
+    border-color: lawngreen;
+    color: lawngreen;
+}
+
+.navbarChange {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-control {
+    border-color: lawngreen;
+}
+
+.form-control:focus {
+    color: lawngreen;
+}
+
+.who-we-are {
+    margin-top: 50px;
+}
+
+.who-we-are p {
+    text-align: center;
+}
+
+.who-we-are h1, .testimonials h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #7efc0098;
+}
+
+.who-we-are h1::before, .testimonials h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.who-we-are h1::after, .testimonials h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: goldenrod;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+@media (max-width: 576px) {
+    .page-info {
+        padding-top: 80px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .who-we-are h1{
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    .who-we-are p {
+        color: black;
+    }
+
 }
